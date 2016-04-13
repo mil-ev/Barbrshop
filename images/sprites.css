@@ -1,0 +1,70 @@
+.btn-input-profile, .btn-close-profile, .form-checked, .icon-login, .icon-password, .btn-social-fb, .btn-social-fb-action, .btn-social-ig, .btn-social-ig-action, .btn-social-vk, .btn-social-vk-action{
+	background: url(sprites.png) no-repeat;
+}
+
+.btn-input-profile{
+	background-position: -41px -43px ;
+	width: 18px;
+	height: 16px;
+}
+
+.btn-close-profile{
+	background-position: -96px -32px ;
+	width: 21px;
+	height: 21px;
+}
+
+.form-checked{
+	background-position: -144px -43px ;
+	width: 12px;
+	height: 12px;
+}
+
+.icon-login{
+	background-position: -192px -42px ;
+	width: 15px;
+	height: 15px;
+}
+
+.icon-password{
+	background-position: -240px -39px ;
+	width: 15px;
+	height: 17px;
+}
+
+.btn-social-fb{
+	background-position: -292px -37px ;
+	width: 12px;
+	height: 22px;
+}
+
+.btn-social-fb-action{
+	background-position: -344px -38px ;
+	width: 12px;
+	height: 22px;
+}
+
+.btn-social-ig{
+	background-position: -392px -39px ;
+	width: 21px;
+	height: 21px;
+}
+
+.btn-social-ig-action{
+	background-position: -438px -39px ;
+	width: 21px;
+	height: 21px;
+}
+
+.btn-social-vk{
+	background-position: -481px -40px ;
+	width: 25px;
+	height: 16px;
+}
+
+.btn-social-vk-action{
+	background-position: -537px -43px ;
+	width: 25px;
+	height: 16px;
+}
+

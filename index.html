@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Барбершоп «Бородинский»">
+    <meta name="description" content="Мы делаем свою работу быстро! Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино! Наши мастера - профессионалы своего дела.">
+    <title>Барбершоп «Бородинский»</title>
+    <link href="style/normalize.css" rel="stylesheet">
+    <link href="style/style.min.css" rel="stylesheet">
+</head>
+
+<body class="index">
+    <header class="main-header">
+        <div class="container clearfix">
+            <nav class="main-navigation">
+                <ul>
+                    <li class="active">
+                        <a href="#">Главная</a>
+                    </li>
+                    <li>
+                        <a href="#">Информация</a>
+                    </li>
+                    <li>
+                        <a href="#">Новости</a>
+                    </li>
+                    <li>
+                        <a href="price.html">Прайс-лист</a>
+                    </li>
+                    <li>
+                        <a href="shop.html">Магазин</a>
+                    </li>
+                    <li>
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="user-block">
+                <a href="login.html" class="login">Вход</a>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <figure class="logo">
+            <a href="#" title="Барбершоп «Бородинский">
+                <img src="images/logo-barbershop24.png" alt="Барбершоп «Бородинский»" width="365" height="200">
+            </a>
+        </figure>
+        <section class="features-row clearfix">
+            <div class="features-item">
+                <div class="features-title">Быстро</div>
+                <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы - счастливый обладатель стильной стрижки-минутки!</p>
+            </div>
+            <div class="features-item">
+                <div class="features-title">Круто</div>
+                <p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино!
+                    <br>Во всяком случае внешне.</p>
+            </div>
+            <div class="features-item">
+                <div class="features-title">Дорого</div>
+                <p>Наши мастера - профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>
+            </div>
+        </section>
+        <div class="index-content clearfix">
+            <section class="content-column-left">
+                <h2 class="content-column-title">Новости</h2>
+                <ul class="news-preview">
+                    <li><a href="#" title="News">Нам наконец завезли Ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки</a>
+                        <br>
+                        <time datetime="2013-09-25">25 сентября</time>
+                    </li>
+                    <li><a href="#" title="News">В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды</a>
+                        <br>
+                        <time datetime="2013-09-25">25 сентября</time>
+                    </li>
+                </ul>
+                <a href="#" class="btn">Все новости</a>
+            </section>
+            <section class="content-column-right">
+                <h2 class="content-column-title">Фотогалерея</h2>
+                <div class="gallery">
+                    <figure class="gallery-content">
+                        <a href="pictures/gallery-1.jpg" title="Салон"><img src="pictures/gallery-1.jpg" width="143px" height="82" alt="Салон"></a>
+                        <a href="pictures/shop-item-2.jpg" title="Салон"><img src="pictures/shop-item-2.jpg" width="143" height="82" alt="Салон"></a>
+                        <a href="pictures/shop-item-3.jpg" title="Салон"><img src="pictures/shop-item-3.jpg" width="143" height="82" alt="Салон"></a>
+                        <a href="pictures/shop-item-4.jpg" title="Салон"><img src="pictures/shop-item-4.jpg" width="143" height="82" alt="Салон"></a>
+                    </figure>
+                    <button class="btn gallery-prew" disabled>Назад</button>
+                    <button class="btn gallery-next">Вперед</button>
+                </div>
+            </section>
+        </div>
+        <div class="index-content clearfix">
+            <section class="content-column-left">
+                <div class="main-contacts">
+                    <h2 class="content-column-title">Контактная информация</h2>
+                    <p>Барбершоп «Бородинский»
+                        <br> Адрес: Г. МОСКВА, УЛ. СОБАКИ ПАВЛОВА, Д.13
+                        <br> Телефон: +7 (495) 111-02-111</p>
+                    <p>Время работы:
+                        <br> пн — пт: с 10:00 до 22:00
+                        <br> сб — вс: с 10:00 до 19:0</p>
+                    <a href="map.html" class="btn open-map">Как проехать</a>
+                    <a href="#" class="btn">Обратная связь</a>
+                </div>
+            </section>
+            <section class="content-column-right">
+                <div class="appointment-form">
+                    <h2 class="content-column-title">Записаться</h2>
+                    <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
+                    <form action="/echo" method="post">
+
+                        <input type="date" name="date" id="appointment-form-date-id" placeholder="Дата" required>
+
+                        <input type="time" name="time" id="appointment-form-time-id" placeholder="Время" required>
+
+                        <input type="text" name="name" id="appointment-form-name-id" placeholder="Ваше Имя" required autocomplete="on">
+
+                        <input type="tel" name="tel" id="appointment-form-tel-id" placeholder="Телефон" required autocomplete="on">
+
+                        <button type="submit" class="btn">Отправить</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </div>
+    <footer class="main-footer">
+        <div class="container clearfix">
+            <section class="footer-contacts">
+                <p>Барбершоп «Бородинский»
+                    <br> Адрес: Г. МОСКВА, УЛ. СОБАКИ ПАВЛОВА, Д.13
+                    <br>
+                    <a href="map.html" class="open-map-foot">Как нас найти?</a>
+                    <br> телефон: +7 (495) 111-02-111</p>
+            </section>
+            <section class="footer-social">
+                <p>Давайте дружить!</p>
+                <a href="https://vk.com" class="social-btn social-btn-vk"></a>
+                <a href="https://www.facebook.com" class="social-btn social-btn-fb"></a>
+                <a href="https://www.instagram.com" class="social-btn social-btn-inst"></a>
+            </section>
+            <section class="footer-copyright">
+                <p>Дизайн сайта:</p>
+                <a href="#" class="btn">htmlacademy.ru</a>
+            </section>
+        </div>
+    </footer>
+    <article class="login-form">
+        <div class="login-form-conteiner">
+            <div class="login-form-close icon-cancel-1"></div>
+            <h2>Личный кабинет</h2>
+            <p>Введите пожалуйста свой логин и пароль
+                <br>
+                <a href="#" class="remember-pass">Если вы забыли пароль</a>
+            </p>
+            <form action="/login" method="post">
+                <div class="login-name-icon">
+                    <input type="text" name="login" id="login-id" class="login-name" placeholder="Логин" required autocomplete="on">
+                </div>
+                <div class="login-password-icon">
+                    <input type="password" name="password" id="password-id" class="login-password" placeholder="Пароль" required>
+                    <br>
+                </div>
+                <input type="checkbox" name="checkbox" class="login-check" id="check-id" checked>
+                <label for="check-id">Запомните меня</label>
+                <a href="#" class="decoration-underline">Я забыл пароль!</a>
+                <button type="submit" name="login-submit" class="btn">Войти</button>
+            </form>
+        </div>
+    </article>
+    <div class="map" id="map-id">
+        <div class="map-close icon-cancel-1"></div>
+    </div>
+    <script src="script/script.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=WlRMwhQLtx2tWfFkmaZUlY55boz_WiH5&width=766&height=561&lang=ru_RU&sourceType=constructor&id=map-id"></script>
+</body>
+
+</html>
